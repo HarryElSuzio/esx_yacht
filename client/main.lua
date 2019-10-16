@@ -351,6 +351,4 @@ AddEventHandler("esx_yacht:notify", function(text)
     PlaySoundFrontend(-1, "HACKING_SUCCESS", 0, 1)
 end)
 
-RegisterCommand("neq", function()
-    TriggerEvent("esx_yacht:lspd")
-end)
+
